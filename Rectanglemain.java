@@ -7,7 +7,7 @@ import java.util.Scanner;
         return(l*b);
     }
 }
-class Main{
+class RectangleMain{
 	public static void main(String args[]) 
 	{
 	    Rectanglearea ra=new Rectanglearea();
