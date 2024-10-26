@@ -1,0 +1,16 @@
+import java.io.*;
+import java.lang.String;
+class Stringdemo
+{
+	public static void main(String args[])
+	{
+		String s1="welcome";
+		char ch[]={'p','u','j','i','t','h','a'};
+		String s2=new String(ch);
+		String s3=new String("Example");
+		System.out.println("The first String is" +s1);
+		System.out.println("The second String is" +s2);
+		System.out.println("The third String is" +s3);
+	}
+}
+	
