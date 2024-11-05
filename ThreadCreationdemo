@@ -1,0 +1,14 @@
+import java.io.*;
+import java.lang.String;
+class ThreadCreationdemo implements Runnable{
+	public void run()
+	{
+		System.out.println("Thread is created and is executed");
+	}
+	public static void main(String args[])
+	{
+		ThreadCreationdemo ob=new ThreadCreationdemo();
+		Thread t=new Thread(ob);
+		t.start();
+	}
+}
