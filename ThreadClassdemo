@@ -1,0 +1,18 @@
+import java.io.*;
+import java.lang.String;
+class ThreadClassdemo extends Thread{
+	public static void main(String args[])
+	{
+		Thread t1=new Thread("My Thread");
+		ThreadClassdemo t2=new ThreadClassdemo();
+		t1.start();
+		t2.start();
+		String str=t1.getName();
+		System.out.println("The name of thread is "+str);
+	}
+	public void run()
+	{
+		System.out.println("The thread is created and is executed");
+	}
+}
+	
